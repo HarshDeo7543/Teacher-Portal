@@ -80,43 +80,6 @@ yarn build
 yarn start
 \`\`\`
 
-## 📁 Project Structure
-
-\`\`\`
-teacher-management-portal/
-├── app/                    # Next.js App Router pages
-│   ├── admin/             # Admin panel pages
-│   ├── lessons/           # Lesson management
-│   ├── people/            # People management
-│   ├── profile/           # User profile pages
-│   ├── reports/           # Reports and analytics
-│   ├── students/          # Student management
-│   ├── upi/              # UPI payment system
-│   └── layout.tsx         # Root layout
-├── components/            # Reusable React components
-│   ├── dashboard/         # Dashboard components
-│   ├── forms/            # Form components
-│   ├── layout/           # Layout components
-│   ├── payments/         # Payment components
-│   ├── teacher/          # Teacher-specific components
-│   ├── ui/               # UI components (shadcn/ui)
-│   └── upi/              # UPI components
-├── lib/                  # Utility functions and configurations
-│   ├── api.ts            # API functions
-│   ├── auth.ts           # Authentication utilities
-│   ├── excel-export.ts   # Excel export functionality
-│   └── utils.ts          # General utilities
-├── types/                # TypeScript type definitions
-│   ├── forms.ts          # Form types
-│   ├── index.ts          # Core types
-│   ├── payment.ts        # Payment types
-│   ├── upi.ts            # UPI types
-│   └── user.ts           # User types
-├── hooks/                # Custom React hooks
-├── __tests__/            # Test files
-└── public/               # Static assets
-\`\`\`
-
 ## 🎯 Key Features Explained
 
 ### 1. Teacher Management
