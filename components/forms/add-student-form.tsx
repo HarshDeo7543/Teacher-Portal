@@ -55,7 +55,7 @@ interface StudentFormProps {
  * Form component for adding new students to the system
  * Includes comprehensive student information collection with validation
  */
-export function AddStudentFormComponent({ onSuccess, onCancel }: StudentFormProps) {
+export function AddStudentForm({ onSuccess, onCancel }: StudentFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([])
   const { toast } = useToast()
